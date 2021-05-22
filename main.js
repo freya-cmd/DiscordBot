@@ -22,4 +22,4 @@ client.on('message', message => {
     }
 });
 
-client.login('ODQ1NzAxNDY0MzQ4MTY0MTY2.YKky3Q.b4RHt4RjoC2-lTHj_n1V5Ry8XR4');
+client.login('Token not pasted here since its being shared on github');
