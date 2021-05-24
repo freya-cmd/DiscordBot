@@ -22,7 +22,7 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
 
     if(command === 'ping'){
-        message.channel.send('pong!');
+       client.commands.get('ping').execute(message, args);
     } else if (command === "help") {
         message.channel.send('There is no help function yet since I am still writing this bot');
     }
